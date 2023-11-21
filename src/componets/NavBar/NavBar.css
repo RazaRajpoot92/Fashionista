@@ -1,0 +1,137 @@
+
+
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 1px 0px 0px  rgb(187, 179, 179);
+    padding: 20px 0;
+}
+
+.logo{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.logo-name{
+    font-size: 2rem;
+    color: rgb(49, 47, 47);
+}
+
+.nav-items{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+
+}
+
+.nav-link{
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: rgb(49, 47, 47);
+    cursor: pointer;
+}
+
+.nav-link:hover{
+    color: rgb(211, 33, 33);
+}
+.active{
+    padding-bottom: 5px;
+    border-bottom: 4px solid rgb(216, 72, 72);
+
+}
+
+.cart-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.log-btn{
+    padding: 12px 25px;
+    background-color: rgba(0, 0, 0, 0.02);
+    border: 1px solid rgb(69, 64, 64);
+    border-radius: 15px;
+    font-size: 18px;
+    margin-right: 20px;
+}
+.log-btn:hover{
+    cursor: pointer;
+    border-color: red;
+}
+
+.cart-count{
+
+    width: 22px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -30px;
+    margin-left: -25px;
+    background-color: red;
+    border-radius: 20px;
+    font-size: 14px;
+    color: white;
+}
+
+
+.icon{
+    font-size: 20px;
+    display: none;
+}
+
+/* mobile nav */
+
+
+/* .mob-nav{
+    height: 100vh;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+    background-color: rgba(183, 175, 175, 0.152);
+    position:absolute;
+    right: 0;
+    top: 0;
+    z-index: 100;
+    display: none;
+
+
+}
+
+.mob-items{
+    flex-direction: column;
+    align-self: flex-start;
+
+}
+
+
+.cart-con{
+
+    display: flex;
+    align-items: center;
+
+
+}
+.mob-cart{
+    gap: 40px;
+    margin-top: 50px;
+
+
+
+} */
+
+
+
+/* @media only screen and (max-width: 850px) {
+    .nav-hide{
+        display: none;
+    }
+    .icon{
+        display: block;
+    }
+  } */
