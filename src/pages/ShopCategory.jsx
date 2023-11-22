@@ -42,6 +42,7 @@ const ShopCategory = (props) => {
                 return <Item
 
                 key={i}
+                id={item.id}
                 image={item.image}
                 name = {item.name}
                 old_price = {item.old_price}
@@ -60,7 +61,9 @@ const ShopCategory = (props) => {
 
 
 
-
+      <div className='loadmore'>
+          Explore More
+      </div>
 
 
     </div>

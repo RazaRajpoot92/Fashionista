@@ -15,6 +15,7 @@ const Popular = () => {
                 products.map((item,i)=>{
                     return <Item
                         key={i}
+                        id = {item.id}
                         image={item.image}
                         name = {item.name}
                         old_price = {item.old_price}

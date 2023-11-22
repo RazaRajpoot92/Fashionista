@@ -27,11 +27,28 @@
     font-weight: 600;
 }
 .shopcategory-products{
-    margin: 20px 170px;
+    margin: 40px 170px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     row-gap: 80px;
 
 }
+.loadmore{
 
+    border: 1px solid rgb(168, 164, 164);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    font-weight: 600;
+    width: 200px;
+    height: 60px;
+    margin:100px auto;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+.loadmore:hover{
+    background-color: rgba(240, 95, 95, 0.819);
+    color: white;
+}
 
